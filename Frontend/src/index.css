@@ -1,0 +1,9 @@
+@import "https://fonts.googleapis.com/css2?family=Geist+Sans:wght@400;500;600;700&display=swap";
+@import "tailwindcss";
+
+@layer base {
+  html {
+    /* font-family: "Geist Mono", monospace; */
+    font-family: "Geist Sans", sans-serif;
+  }
+}
