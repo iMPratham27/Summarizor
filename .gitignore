@@ -7,9 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
+# Dependencies
+**/node_modules/
+
+# Build output
+**/dist/
 dist-ssr
+
+# Environment files
+**/.env
+**/.env.*
+
+# Local overrides
 *.local
 
 # Editor directories and files
@@ -22,3 +31,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Optional dev artifacts and Deployment platforms
+coverage/
+.eslintcache
+*.tsbuildinfo
+.vercel/
+.netlify/
